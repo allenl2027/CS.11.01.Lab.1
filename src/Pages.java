@@ -9,8 +9,7 @@ public class Pages {
         while (age < 0) {
             try {
                 age = Integer.parseInt(scanner.nextLine());
-            }
-            catch (NumberFormatException e) {
+            } catch (NumberFormatException e) {
                 System.out.println("Please enter a valid number!");
             }
         }
